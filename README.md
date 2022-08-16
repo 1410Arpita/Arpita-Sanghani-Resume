@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Arpita
-- 👀 I’m interested in Software Engineer role , Full stack developer role...
-- 🌱 I’m currently learning more coding
-- 💞️ I’m looking to collaborate on realtime projects, internships, fulltime jobs
-- 📫 How to reach me arpitasanghani92@gmail.com
+- 👀 I’m interested in the Software Engineer role, Full stack developer role, Data Science role
+- 🌱 I’m currently learning more coding and playing around data data and dataaaa...
+- 💞️ I’m looking to collaborate on realtime  projects, internships, full-time jobs
+- 📫 How to reach me arpitasanghani92@gmail.com/arpitasanghani@gmail.com
 
 <!---
 1410Arpita/1410Arpita is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
