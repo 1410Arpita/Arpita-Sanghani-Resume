@@ -4,7 +4,7 @@ This repository contains the code and files for my professional resume website h
 
 ## Website Preview
 
-You can access the live preview of my resume website at [arpita-sanghani-resume](https://1410Arpita.github.io/ArpitaSanghani-Resume).
+You can access the live preview of my resume website at [arpita-sanghani-resume](https://1410Arpita.github.io/Arpita-Sanghani-Resume).
 
 ## Repository Structure
 
