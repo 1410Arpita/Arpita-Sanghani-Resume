@@ -64,16 +64,15 @@ a:hover {
 }
 
 .resume-download {
-  text-align: center;
   margin-top: 20px;
 }
 
 .resume-download a {
   display: inline-block;
+  padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
