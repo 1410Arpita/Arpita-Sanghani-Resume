@@ -1,109 +1,83 @@
-/* Reset styles */
+/* Resetting default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body font and background */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header styles */
 header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-/*for square images*/
-/*.profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-pic img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}*/
-
-/*for rectangle images*/
-.profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-pic img {
-  width: auto;
-  height: 100%;
-  object-fit: contain;
-}
-
-
-.header-content {
-  flex-grow: 1;
-}
-
-h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 16px;
-}
-
-.fa-phone,
-.fa-envelope {
-  margin-right: 5px;
-}
-
-/* Section styles */
-section {
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
-
-.resume-download a {
-  display: inline-block;
-  padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+}
+
+.header-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.header-content p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section headings */
+section h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+/* Download resume button */
+.resume-download a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 .resume-download a:hover {
   background-color: #0056b3;
+}
+
+/* Social icons */
+.header-content .fab {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.3em;
+  color: #fff;
 }
